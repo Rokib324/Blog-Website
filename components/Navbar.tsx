@@ -1,4 +1,5 @@
 import { navItems } from '@/lib/constants'
+import ThemeToggle from './ThemeToggle'
 import Link from 'next/link'
 import React from 'react'
 
@@ -18,6 +19,7 @@ const Navbar = () => {
                             {item.name}
                         </Link>
                     ))}
+                    <ThemeToggle />
                 </div>
             </div>
 
