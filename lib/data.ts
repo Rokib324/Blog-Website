@@ -1,3 +1,4 @@
+//featured blogs
 export const featuredBlogs = [
     {
         id: 1,
@@ -34,7 +35,7 @@ export const featuredBlogs = [
 
 ];
 
-
+//Category Topics
 
 export const topics = [
     {
@@ -70,6 +71,33 @@ export const topics = [
         name: "Digital",
         icon: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe-icon lucide-globe"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>`,
         count: 89,
+    },
+];
+
+//Quote Section
+export const quotes = [
+    {
+        quote: "The only way to do great work is to love what you do.",
+        author: "Steve Jobs",
+        image: "https://images.unsplash.com/photo-1569769107543-e0f61bab8e02?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3RldmUlMjBqb2JzfGVufDB8fDB8fHww"
+    },
+ 
+    {
+        quote: "Creativity is intelligence having fun.",
+        author: "Albert Einstein",
+        image: "https://images.unsplash.com/photo-1630635280270-00799dd04da6?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8QWxiZXJ0JTIwRWluc3RlaW58ZW58MHx8MHx8fDA%3D"
+    },
+
+    {
+        quote: "Consistency is the key to success.",
+        author: "John Doe",
+        image: "https://images.unsplash.com/photo-1585076800246-4562eb6d6f42?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Sm9obiUyMERvZXxlbnwwfHwwfHx8MA%3D%3D"
+    },
+
+    {
+        quote: "Time and tide wait for none.",
+        author: "Benjamin Franklin",
+        image: "https://images.unsplash.com/photo-1709148910274-b2cb811c0a2b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8QmVuamFtaW4lMjBGcmFua2xpbnxlbnwwfHwwfHx8MA%3D%3D"
     },
 ];
 

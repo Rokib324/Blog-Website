@@ -1,6 +1,7 @@
 import Features from "@/components/Features";
 import HeroSection from "@/components/HeroSection";
 import Topics from "@/components/Topics";
+import QuoteSection from "@/components/QuoteSection";
 
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
         <HeroSection />
         <Features />
         <Topics />
+        <QuoteSection />
       </main>
     </div>
 
