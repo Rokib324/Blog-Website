@@ -4,6 +4,7 @@ import React from 'react'
 import { featuredBlogs } from '@/lib/data'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import Image from 'next/image'
+import Link from 'next/link'
 import { motion } from 'framer-motion'
 import { Badge } from '@/components/ui/badge'
 import { ArrowRightIcon, CalendarIcon } from 'lucide-react'
@@ -140,12 +141,12 @@ const Features = () => {
                   viewport={{ once: true }}
                   className='flex items-center gap-2 mt-2'
                 >
-                  <a
+                  <Link
                     href="/"
                     className='text-sm text-muted-foreground dark:text-gray-400 hover:text-primary transition-all duration-300 hover:underline'
                   >
                     Read More
-                  </a>
+                  </Link>
                   <ArrowRightIcon className='w-4 h-4' />
                 </motion.div>
               </CardContent>

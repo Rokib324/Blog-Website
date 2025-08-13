@@ -11,7 +11,7 @@ const Navbar = () => {
             <div className='flex items-center justify-between h-16'>
                 {/* logo */}
                 <div className='flex-shrink-0'>
-                    <h1 className='text-xl font-serif font-bold text-foreground'>Rokib's</h1>
+                    <h1 className='text-xl font-serif font-bold text-foreground'>Rokib&apos;s</h1>
                 </div>
                 {/* navigation items */}
                 <div className='hidden md:flex items-center space-x-8 '>

@@ -2,7 +2,6 @@
 
 import React from 'react'
 import { motion } from "framer-motion"
-import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
 import { Button } from './ui/button'
 
@@ -18,7 +17,7 @@ const HeroSection = () => {
             transition={{ duration: 0.5 }}
             className='text-center lg:text-left space-y-6'
           >
-              <h1 className='text-4xl md:text-6xl lg:text-7xl font-serif font-bold text-foreground leading-tight mb-6'>Writing That Resonates- <span className='text-primary italic'>Rokib's</span></h1>
+              <h1 className='text-4xl md:text-6xl lg:text-7xl font-serif font-bold text-foreground leading-tight mb-6'>Writing That Resonates- <span className='text-primary italic'>Rokib&apos;s</span></h1>
               <p className='text-lg text-muted-foreground mb-8 font-mono'>
                 Discover my thoughts, ideas, and experiences on a wide range of topics.
               </p>
